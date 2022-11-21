@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+   	<title>小树洞</title>
+   <style>
+   .xie-adiv{} /*主框架*/
+   .xie-adiv-av{
+      
+     } /*主框架-内容存放处*/
+   .-av-inga{
+     width:30%;
+     margin-top:10%;
+     margin-left:1%;
+     } /*图标*/
+   .-av-aidv{
+     width:80%;
+     margin-left:10%;
+     margin-top:10%;
+     } /**/
+   .-av-aidv-pa{color:#c8ff00}
+   .av-aidv-pa-ina{
+     width:100%;
+     height:15px;
+     outline:none;
+     border:none;
+     } /*输入框*/
+   .av-aidv-pa-tea{
+     width:100%;
+     outline:none;
+     border-radius:5px;
+     height:80px;
+     }
+   .av-aidv-pa-va{color:#ff00b8}
+   .tjana{
+      width:100%;
+      text-align:center;
+      margin-top:20%;
+     }
+   .tjan{
+     width:40%;
+     height:30px;
+     background-color:#fefefe;
+     }
+   .lyxy{
+     width:97%;height:450px;position:absolute;background-color:#ff8a00;bottom:0px;
+     margin-left:-2px;border-radius:50px;text-align:center;
+     }
+   .lop-a{margin-top:10px;}
+   .ly-a{width:100%;height:100%;}
+   </style>
+   <script src="dat.js"></script>
+  </head>
+  <body >	
+   <div class="xie-adiv">
+    <div class="xie-adiv-av">
+     <img src="20220316_130650_0000.png" class="-av-inga"/>
+      <div class="-av-aidv">
+       <p class="-av-aidv-pa">好友名字:</p>
+        <input type="text" class="av-aidv-pa-ina" placeholder="请输入名字或暗号(字符数不要超过8)" id="name" maxlength="8"/>
+        <hr class="pahr"/>
+       <p class="-av-aidv-pa">留言内容:</p>
+       <textarea class="av-aidv-pa-tea" placeholder="请输入留言内容" id="loaa"></textarea>
+       <hr/>
+       <input type="radio" id="radio" name="radio"/>我已阅读<a class="av-aidv-pa-va" onclick="alert('点击了留言协议')">留言协议</a>
+      </div>
+      
+    </div>
+    <div class="tjana">
+     <button class="tjan" onclick="tj()">递交留言</button>
+    </div>
+   </div>
+  
+  
+   
+  </body>
+</html>
